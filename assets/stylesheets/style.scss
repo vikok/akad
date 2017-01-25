@@ -241,12 +241,13 @@ main{
 .ba-stay-form{
 		input{
 			text-transform: uppercase;
-			width: 70%;
-			border: 0;
 			color:  #cdcdcd;
 			font-size: 12px;
 			font-weight: 700;
 			line-height: 48px;
+			height: 37px;
+    		padding: 6px 12px;
+    		border: 1px solid #ccc;
 		}
 }
 
