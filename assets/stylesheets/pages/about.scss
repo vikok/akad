@@ -1,0 +1,55 @@
+@import "slick-theme";
+.ba-descr{
+	color:  rgba(96, 96, 110, 0.5);
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	&__info{
+		color:  rgba(96, 96, 110, 0.5);
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 30px;
+	}
+}
+.ba-service__icon-benefits{
+		background-color:  #7beec7;
+		width: 40px;
+		height: 40px;
+		color: #fff;
+		text-align: center;
+		font-size: 30px;
+		line-height: 40px;
+		display: inline-block;
+}
+.ba-service__description{
+		color:  rgba(96, 96, 110, 0.5);
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 30px;
+}
+.ba-team{
+	margin-bottom: 30px;
+	&__content{
+		background-color: rgba(96, 96, 110, 0.1);
+    	padding: 50px 30px;
+    	font-size: 18px;
+    	font-style: italic;
+    	p{
+    		display: inline-block;
+    	}
+	}
+}
+.ba-places__info{
+	color:  rgba(96, 96, 110, 0.5);
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 30px;
+	width: 550px;
+	img{
+		margin: 0 auto;
+	}
+}
+.ba-places__item{
+	padding-bottom: 30px;
+}
+

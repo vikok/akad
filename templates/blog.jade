@@ -1,0 +1,189 @@
+doctype html
+html
+	head
+		meta(charset="UTF-8")
+		meta(http-equiv='X-UA-Compatible', content='IE=edge')
+		meta(name='viewport', content='width=device-width, initial-scale=1')
+		title About - AKAD.
+		link(rel='icon', href='favicon.png')
+		link(href='assets/css/style.css', rel='stylesheet')
+	body
+		.ba-intro(style="background-image: url(assets/images/about/bg_about.jpg)")
+			include _main-menu.jade
+			.container
+				.ba-intro__body
+					h1.ba-page-title Blog
+					ol.breadcrumb
+						li
+							a(href="index.html") Home
+						li.active Blog
+		main
+			section.ba-section
+				.container
+					.row
+						.col-sm-8
+							//- posts
+							article.ba-post
+								a.ba-post__img(href="#")
+									img(src="../assets/images/blog/mountain.jpg" alt="THE BIG LEAGUES OUR TURN STRAIGHTNIN")
+							.ba-post__meta
+								//- date
+								time.ba-post__date(datetime="2015-10-13")
+									| October 13, 2015
+								.ba-post__comments
+									i.ion-chatbox-working
+									| 8
+								.ba-post__likes
+									i.ion-ios-heart
+									| 15
+							h2.ba-post__title
+								a(href="#")
+									| THE BIG LEAGUES OUR TURN STRAIGHTNIN
+							p
+								|Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+							a.ba-post__readmore(href="#")
+								| continue reading
+
+							article.ba-post
+								a.ba-post__img(href="#")
+									img(src="../assets/images/blog/mountain.jpg" alt="THE BIG LEAGUES OUR TURN STRAIGHTNIN")
+							.ba-post__meta
+								//- date
+								time.ba-post__date(datetime="2015-10-13")
+									| October 13, 2015
+								.ba-post__comments
+									i.ion-chatbox-working
+									| 8
+								.ba-post__likes
+									i.ion-ios-heart
+									| 15
+							h2.ba-post__title
+								a(href="#")
+									| THE BIG LEAGUES OUR TURN STRAIGHTNIN
+							p
+								|Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+							a.ba-post__readmore(href="#")
+								| continue reading
+
+							article.ba-post
+								a.ba-post__img(href="#")
+									img(src="../assets/images/blog/mountain.jpg" alt="THE BIG LEAGUES OUR TURN STRAIGHTNIN")
+							.ba-post__meta
+								//- date
+								time.ba-post__date(datetime="2015-10-13")
+									| October 13, 2015
+								.ba-post__comments
+									i.ion-chatbox-working
+									| 8
+								.ba-post__likes
+									i.ion-ios-heart
+									| 15
+							h2.ba-post__title
+								a(href="#")
+									| THE BIG LEAGUES OUR TURN STRAIGHTNIN
+							p
+								|Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+							a.ba-post__readmore(href="#")
+								| continue reading
+
+						//- .ba-post
+						.col-sm-3.col-sm-offset-1
+							.ba-sidebar
+								.ba-widget
+									form.ba-search-form(action="#", method="post")
+										input.ba-search-form__field(type="search" name="search" placeholder="Search...")
+										button.ba-search-form__btn(type="submit")
+									.ba-post
+										h3.ba-widget__title Posts
+										ul.nav.nav-tabs
+											li.ba-post__tabs.active(role='presentation')
+												a(href='#latest') Latest
+											li.ba-post__tabs(role='presentation')
+												a(href='#popular') Popular
+											li.ba-post__tabs(role='presentation')
+												a(href='#coments') Comments
+										.ba-tabs
+											a(href="#")
+												img(src="assets/images/blog/latest3.jpg")
+												h3.ba-tabs__title Magna mollis ultricies
+											a(href="#")
+												img(src="assets/images/blog/latest2.jpg")
+												h3.ba-tabs__title Magna mollis ultricies
+											a(href="#")
+												img(src="assets/images/blog/latest.jpg")
+												h3.ba-tabs__title Magna mollis ultricies
+									.ba-post
+										h3.ba-widget__title categories
+										ul.ba-category
+											li.ba-category__item
+												a(href="#")
+													| Business
+													span 15
+											li.ba-category__item
+												a(href="#")
+													| Photography
+													span 22
+											li.ba-category__item
+												a(href="#")
+													| Journal
+													span 27
+											li.ba-category__item
+												a(href="#")
+													| Web development
+													span 30
+									.ba-post
+										h3.ba-widget__title tags
+										ul.ba-tag
+											li
+												a(href="#")
+													| CSS
+											li
+												a(href="#")
+													| JAVASCRIPT
+											li
+												a(href="#")
+													| jQUERY
+											li
+												a(href="#")
+													| HTML5
+											li
+												a(href="#")
+													| BOOTSTRAP
+											li
+												a(href="#")
+													| CSS
+											li
+												a(href="#")
+													| JAVASCRIPT
+											li
+												a(href="#")
+													| jQuery
+									.ba-post
+										h3.ba-widget__title archives
+										ul.ba-category
+											li.ba-category__item
+												a(href="#")
+													| Business
+													span 15
+											li.ba-category__item
+												a(href="#")
+													| Photography
+													span 22
+											li.ba-category__item
+												a(href="#")
+													| Journal
+													span 27
+											li.ba-category__item
+												a(href="#")
+													| Web development
+													span 30
+
+
+
+			include _subscribe.jade
+			include _footer.jade
+
+		//- scripts
+		include _script.jade
+
+
